@@ -1,0 +1,10 @@
+name: azure-python
+runtime: python
+description: A minimal Azure Python Pulumi program
+template:
+  description: A minimal Azure Python Pulumi program
+  config:
+    azure:environment:
+      description: The Azure environment to use (`public`, `usgovernment`, `german`,
+        `china`)
+      default: public
